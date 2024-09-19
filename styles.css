@@ -1,0 +1,124 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8ecf1;
+    color: #333;
+    padding: 20px;
+}
+
+/* Resume Container */
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+    width: 35%;
+    background-color: #2e86de;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    object-fit: cover;
+}
+
+/* Name and Contact Info */
+.name {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+/* Skills and Certifications */
+.skills-list, .certifications-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.skill-item, .certification-item {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Right Section */
+.right-section {
+    width: 65%;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 1.8em;
+    color: white;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.section-content {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.education-details, .project, .internship {
+    margin-top: 10px;
+}
+
+.degree {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.university {
+    font-size: 1.1em;
+    color: #777;
+}
+
+
+.project-title, .internship-title {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.project-description, .internship-description {
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+h2 {
+
+    color: rgb(13, 191, 204);
+}
